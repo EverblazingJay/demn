@@ -1,0 +1,1165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin: 0;
+    float: right;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.main-header .road-assistance .icon {
+    margin-right: 10px;
+    padding: 13px 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content{
+  justify-content: center;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero-section .text-section{
+    width: 45%;
+} 
+
+#hero-section .image-section {
+    width: 55%;
+}
+
+#hero-section, #quote-section {
+    padding: 80px 0;
+}
+
+
+#hero-section .image-section{
+  background-image: url(../Images/Header-Image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.text-section h1 {
+    font-size: 60px;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+.time-section img {
+    width: 100%;
+}
+
+.light-grey {
+    color: #939191;
+}
+
+#quote-section {
+  width: 100%;
+    background: #E2E6E9;
+}
+
+#quote-section .left-section{
+  width: 40%;
+}
+
+#quote-section .right-form-section{
+  width: 40%;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+    padding: 0 16px 0 0;
+}
+
+#quote-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    padding: 10px 0;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+
+#quote-section .left-section .text-box {
+    width: 50%;
+}
+
+#quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#quote-section .right-form-section h3{
+    font-size: 48px;
+}
+
+#quote-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#serv-section{
+  width: 100%;
+  padding: 2rem;
+}
+
+.serv-text-section{
+  width: 35%;
+  padding-right: 7rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+#serv-section .serv-text-section h2{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.serv-image-section{
+  width: 65%;
+  padding: 0 2rem;
+}
+
+#offer img{
+  width: 20%;
+}
+
+#offer{
+  width: 100%;
+  padding: 4rem;
+  background: #E2E6E9;
+}
+
+#offer h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#offer p{
+  text-align: center;
+}
+
+#offer .row-1{
+  display: flex;
+  justify-content: center;
+}
+
+#offer .row-2{
+  display: flex;
+  justify-content: center;
+}
+
+#offer .offer-header{
+  font-size: 44px;
+}
+
+#gallery{
+  width: 100%;
+  height: auto;
+}
+
+#gallery .first-img-container{
+  width: 15%;
+}
+
+#gallery .second-img-container{
+  width: 35%;
+}
+
+#gallery .third-img-container{
+  width: 50%;
+}
+
+#gallery .first-img-container img{
+  overflow: hidden;
+}
+
+#gallery .second-img-container img{
+  width: 100%;
+  height: 255px;
+}
+
+#gallery .third-img-container img{
+  width: 100%;
+  height: 255px;
+}
+
+#gallery .exp-img{
+  width: 100%;
+}
+
+#gallery .exp-img img{
+  width: 100%;
+}
+
+#brand{
+  width: 100%;
+}
+
+#brand img{
+  width: 100%;
+}
+
+#feedback{
+  background-color: #dcdcdc;
+  padding: 4rem;
+}
+
+#feedback .feedback-header{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#feedback .first-card{
+  background-color: #fff;
+  width: 45%;
+  padding: 3.5rem 2rem;
+}
+
+#feedback .face-cad{
+  width: 80px; 
+  height: 80px;
+  border-radius: 50%;
+}
+
+#feedback .image-feed{
+  margin-bottom: 15px;
+}
+
+#feedback .client-info{
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+.client-info p{
+  font-size: 10px;
+  font-weight: light;
+}
+
+.text-feed p{
+  text-align: start;
+}
+
+#feedback .second-card{
+  background-color: #Fff;
+  width: 45%;
+  padding: 3.5rem 2rem;
+}
+
+#feedback .border{
+  width: 20px;
+  height: 5px;
+  border: 1px solid black;
+  margin: 35px 10px 0 0;
+}
+
+.border:nth-child(3){
+  background-color: #FF6433;
+}
+
+#question{
+  background-color: #E2E6E9;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+#question h1{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#question .question-container{
+  justify-content: center;
+}
+
+#question .question-image-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.question-image-container img{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#footer{
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+#footer .container{
+  width: 80%;
+  padding: 5rem 0 0 0;
+}
+
+.left-footer-section h1{
+  margin-bottom: 45px;
+}
+
+#footer .right-footer-section p{
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+#footer .right-footer-section h4, p{
+  text-align: start;
+  margin-bottom: 13px;
+}
+
+.footer-main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.f-header-right-section {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.f-header-right-section ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.road-assistance {
+  display: flex;
+  padding-left: 20px;
+}
+
+.f-header-right-section ul li {
+  margin: 0;
+  float: right;
+}
+
+.f-header-right-section ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+
+/*----About page styles started here----*/
+
+#service-booking{
+  width: 100%;
+  padding: 0;
+}
+
+#service-booking .serv-book-left-section{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.serv-book-left-section img{
+  width: 100%;
+  overflow: hidden;
+}
+
+#service-booking .serv-book-right-section{
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.serv-book-right-section .card{
+  background-color: #000;
+  color: #fff;
+  padding: 20px
+}
+
+.serv-book-right-section .card-tittle h1{
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+}
+
+.serv-book-right-section .card-text p{
+  padding: 10px;
+}
+
+.serv-book-right-section .orange-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  font-size: 13px;
+  margin: 0 auto 8px;
+}
+
+#diagnostic{
+  width: 100%;
+  background: #E2E6E9;
+  margin: 1rem 0;
+  padding: 10px;
+}
+
+#diagnostic .card{
+  width: 90%;
+  background: #fff;
+  margin: 20px;
+  padding: 20px 0;
+}
+
+#diagnostic .card-image{
+  width: 100%;
+  margin: 0 auto;
+}
+
+#diagnostic .card-image img{
+  width: 100%;
+}
+
+#diagnostic .card-text p{
+  font-weight: lighter;
+}
+
+#diagnostic .card .arrow-container{
+  width: 22%;
+  margin-left: 15px;
+}
+
+#diagnostic .card .arrow-container img{
+  width: 100%;
+  padding: 5px;
+}
+
+#diagnostic .showcase{
+  width: 100%;
+  padding: 1rem 0;
+}
+
+#diagnostic .row{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#diagnostic .row img{
+  width: 48%;
+}
+
+#process .check-image-container{
+  width: 20%;
+  margin-right: 15px;
+}
+
+.check-image-container img{
+  width: 100%;
+  padding: 9px 0;
+}
+
+#process .left-process-section h1{
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+#process .right-process-section{
+  width: 100%;
+}
+
+.right-process-section .process-img-container{
+  width: 50%;
+  margin-top: 20px;
+}
+
+.process-img-container img{
+  width: 100%;
+}
+
+#car-info{
+  width: 100%;
+  margin: 30px 0 3rem 0;
+}
+
+#car-info .left-info-section{
+  width: 100%;
+  margin-top: 10px;
+}
+
+#car-info .info-img-container{
+  width: 50%;
+}
+
+.info-img-container img{
+  width: 100%;
+}
+
+#car-info .info-right-section {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.info-right-section .card {
+  background-color: #fff;
+  color: #000;
+  padding: 20px
+}
+
+.info-right-section .card-tittle h1 {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.info-right-section .card-text p {
+}
+
+.info-right-section .orange-btn {
+  padding: 8px 20px;
+  font-size: 13px;
+}
+
+#about-footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+#about-footer .container {
+  width: 80%;
+  padding: 5rem 0 0 0;
+}
+
+#about-footer .left-about-footer-section{
+  width: 45%;
+}
+
+#about-footer .right-about-footer-section{
+  width: 45%;
+}
+
+#about-footer .left-about-footer-section img{
+  width: 80%;
+}
+#about-footer .left-about-footer-section h1 {
+  margin-bottom: 45px;
+}
+
+#about-footer .right-about-footer-section p {
+  font-size: 15px;
+  font-weight: light;
+}
+
+#about-footer .right-about-footer-section h4,
+p {
+  text-align: start;
+}
+
+.about-footer-main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.about-f-header-right-section {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.about-f-header-right-section ul {
+  list-style: none;
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+#about-footer .road-assistance {
+  display: flex;
+  padding-left: 20px;
+}
+
+
+
+.about-f-header-right-section ul li {
+  margin: 0;
+  float: right;
+}
+
+.about-f-header-right-section ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.about-main-header {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+.about-right-section {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.about-right-section ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.about-main-header .road-assistance {
+  display: none;
+  padding-left: 20px;
+}
+
+.about-right-section ul li {
+  margin: 0;
+  padding: 8px;
+}
+
+.about-right-section ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.about-right-section ul li a:hover{
+  background: #000;
+  color: #fff;
+}
+
+.about-right-section ul li a:active{
+  background: #fff;
+  color: red;
+}
+
+.about-right-section .navigation {
+  border-right: none;
+}
+
+.about-road-assistance .icon {
+  margin-right: 10px;
+  padding: 20px 0
+}
+
+.road-assistance p{
+  padding-top: 11px;
+}
+
+
+/*----- sm-------*/
+@media (max-width: 600px) {
+  .main-header{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .right-section{
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .right-section .navigation ul{
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .right-section .navigation ul li{
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .right-section .navigation{
+    border: none;
+  }
+
+  .road-assistance {
+    display: none;
+    padding-left: 0;
+  }
+
+  .right-section .navigation ul li a{
+    padding: 10px;
+  }
+  
+  .right-section .navigation ul li a:hover{
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .d-sm-col{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #hero-section .text-section{
+    width: 100%;
+  }
+
+  #hero-section .text-section h1{
+    font-size: 35px;
+  }
+
+  #hero-section .time-section{
+    justify-content: center;
+  }
+
+  .btn-sm {
+    background: #FF6433;
+    border-radius: 8px;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+  }
+
+  .container-sm{
+    width: 100%;
+  }
+
+  #quote-section .left-section{
+    width: 100%;
+  }
+
+  #quote-section .left-section h2{
+    font-size: 35px;
+  }
+
+  #quote-section .right-form-section{
+    width: 100%;
+  }
+
+  #quote-section .right-form-section h3{
+    font-size: 35px;
+    padding: 10px;
+  }
+
+  #serv-section .serv-text-section{
+    width: 100%;
+    margin-bottom: 60px;
+    padding: 5px 0;
+  }
+
+  #serv-section .serv-text-section h2{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  #serv-section .serv-image-section{
+    width: 100%;
+  }
+
+  #serv-section .serv-image-section img{
+    width: 100%;
+  }
+
+  #offer .offer-header{
+    font-size: 22px;
+  }
+
+  #offer .row-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #offer .row-1 img{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #offer .row-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #offer .row-2 img{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #feedback .first-card{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #feedback .second-card{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #feedback .feedback-header{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  #question .question-image-container{
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  #question .question-image-container img{
+    width: 100%;
+  }
+
+  #question h1{
+    font-size: 25px;
+  }
+
+  #footer {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+  }
+  
+  #footer .container {
+    width: 80%;
+    padding: 5rem 0 0 0;
+  }
+  
+  #footer .left-footer-section{
+    width: 45%;
+  }
+  
+  #footer .right-footer-section{
+    width: 45%;
+  }
+  
+  #footer .left-footer-section img{
+    width: 80%;
+  }
+  #footer .left-footer-section h1 {
+    margin-bottom: 45px;
+  }
+  
+  #footer .right-footer-section p {
+    font-size: 15px;
+    font-weight: light;
+  }
+  
+  #footer .right-footer-section h4,
+  p {
+    text-align: start;
+  }
+  
+  .footer-main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+  }
+  
+  .f-header-right-section {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+  
+  .f-header-right-section ul {
+    list-style: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .road-assistance {
+    display: flex;
+    padding-left: 20px;
+  }
+  
+  
+  
+  .f-header-right-section ul li {
+    margin: 0;
+    float: right;
+  }
+  
+  .f-header-right-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .right-section ul li {
+    margin: 0;
+    padding: 8px;
+  }
+  
+  .right-section ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .right-section ul li a:hover{
+    background: #000;
+    color: #fff;
+  }
+  
+  .right-section ul li a:active{
+    background: #fff;
+    color: darkred;
+  }
+  
+  .right-section .navigation {
+    border-right: none;
+  }
+  
+  .road-assistance .icon {
+    margin-right: 10px;
+    padding: 20px 0
+  }
+  
+  .road-assistance p{
+    padding-top: 11px;
+  }
+
+}
+
+@media (min-width: 700px){
+  .about-main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+  }
+
+  .about-right-section {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+
+  
+  .about-right-section ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+ }
+
+ .about-main-header .road-assistance {
+   display: flex;
+   padding-left: 20px;
+ }
+
+ .about-right-section ul li {
+   margin: 0;
+   float: right;
+ }
+
+ .about-right-section ul li a {
+   text-decoration: none;
+   color: #000;
+   padding: 4px 8px;
+   cursor: pointer;
+ }
+
+ .about-right-section .navigation {
+   border-right: 2px solid #ccc;
+ }
+
+ .road-assistance .icon {
+   margin-right: 10px;
+   padding: 13px 0;
+ }
+
+ #service-booking .serv-book-left-section .serv-book-right-section{
+   width: 50%;
+   
+ }
+
+ #service-booking .serv-book-right-section{
+   margin-top: 0;
+ }
+
+ #service-booking .serv-book-right-section .card{
+   height: 268px;
+   margin-top: 0;
+ }
+
+ #diagnostic .card .showcase{
+   width: 35%;
+ }
+
+ #diagnostic .card .card-tittle h1{
+   margin: 15px 0;
+ }
+
+ #diagnostic .card .arrow-container{
+   width: 15%;
+   margin-left: 15px;
+ }
+
+ #diagnostic .card .arrow-container img{
+   width: 100%;
+   padding: 10px;
+ }
+
+ .flex-bg{
+   display: flex;
+ }
+
+ .bg-space-between{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ #process{
+   margin: 50px 0;
+ }
+
+ #process .left-process-section .right-process-section{
+   width: 40%;
+ }
+
+ #process .left-process-section{
+   padding: 10px;
+ }
+
+
+ #process .left-process-section .process-row{
+   padding: 20px;
+ }
+
+ #process .right-process-section{
+   margin: 0 0 0 20px;
+   padding: 0;
+ }
+
+ #car-info .left-info-section .info-right-section{
+   width: 40%;
+ }
+
+ #car-info .info-right-section{
+   margin-left: 20px;
+ }
+
+ #car-info .info-right-section .card-text{
+   padding: 30px 0 10px 0;
+ }
+  
+ .about-f-header-right-section ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+ }
+
+ .about-main-header .road-assistance {
+  display: flex;
+  padding-left: 20px;
+ }
+}
