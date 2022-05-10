@@ -888,6 +888,16 @@ p {
     margin-bottom: 10px;
   }
 
+  #gallery{
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  #gallery .first-img-container{
+    width: 15%;
+    overflow-x: hidden;
+  }
+
   #feedback .first-card{
     width: 100%;
     margin-bottom: 15px;
@@ -1086,7 +1096,7 @@ p {
  }
 
  #service-booking .serv-book-right-section .card{
-   height: 268px;
+   height: 262px;
    margin-top: 0;
  }
 
